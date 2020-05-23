@@ -3,12 +3,12 @@ import { Component } from "@angular/core";
 @Component({
   selector: "nz-demo-drawer-basic-right",
   template: `
-    <button nz-button nzType="primary" (click)="open()">Novidades</button>
+    <button nz-button nzType="primary" (click)="open()">What's new</button>
     <nz-drawer
       [nzClosable]="false"
       [nzVisible]="visible"
       nzPlacement="right"
-      nzTitle="Novidades na APP WEMOVIT"
+      nzTitle="What's new in WEMOVIT"
       (nzOnClose)="close()"
       [nzWidth]="500"
     >
