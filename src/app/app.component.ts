@@ -13,7 +13,7 @@ import { Component } from "@angular/core";
       [nzWidth]="500"
     >
       <nz-card
-        style="width:auto;background-color: rgb(238, 238, 238);"
+        style="width:auto;background-color: rgb(238, 238, 238);border-radius: 10px;"
         nzTitle="Execução de Treinos | 18 de Maio, 2020"
         [nzExtra]="extraTemplate"
         >
